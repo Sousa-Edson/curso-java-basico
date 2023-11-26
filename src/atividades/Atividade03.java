@@ -10,7 +10,7 @@ public class Atividade03 {
 		System.out.println("Digite outro numero:");
 		int numero2 = scanner.nextInt();
 		int soma = numero+numero2;
-		System.out.println("A soma é: " + soma);
+		System.out.println("A soma é : " + soma);
 
 		scanner.close();
 	}
