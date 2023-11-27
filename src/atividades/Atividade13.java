@@ -20,25 +20,28 @@ public class Atividade13 {
 		double pesoAtual = scanner.nextDouble();
 
 		double pesoIdeal;
-		sexo = sexo.substring(0, 1).toLowerCase();
+		sexo = sexo.substring(0, 1);
 
-		if (sexo.equals("m")) {
+		if (sexo.equalsIgnoreCase("m")) {
 			pesoIdeal = (72.7 * altura) - 58;
-		} else {
+		} else if (sexo.equalsIgnoreCase("f")) {
 			pesoIdeal = (72.1 * altura) - 44.7;
+		} else {
+			pesoIdeal = 0;
+			System.out.println("Sexo invalido");
+
 		}
 		// Arredonda o número
 		long numeroArredondado = Math.round(pesoIdeal * 1000); // Multiplica por 1000 para manter três casas decimais
 		pesoIdeal = (double) numeroArredondado / 1000; // Divide por 1000 para obter o resultado final
 
 		if (pesoIdeal > pesoAtual) {
-			System.out.println("Você esta abaixo do peso ideal!\nSeu peso ideal é " + pesoIdeal);
+			System.out.println("Você esta abaixo do peso ideal! \nSeu peso ideal é " + pesoIdeal);
 		} else if (pesoIdeal < pesoAtual) {
-			System.out.println("Você esta acima do peso ideal!\\nSeu peso ideal é " + pesoIdeal);
+			System.out.println("Você esta acima do peso ideal! \nSeu peso ideal é " + pesoIdeal);
 		} else {
 			System.out.println("Você esta dentro do peso ideal!");
 		}
-		System.out.println(sexo);
 
 		scanner.close();
 
