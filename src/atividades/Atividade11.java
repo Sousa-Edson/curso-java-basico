@@ -15,7 +15,7 @@ public class Atividade11 {
 
 		System.out.println("Digitenúmero inteiro 1:");
 		int numeroInteiro1 = scanner.nextInt();
-		System.out.println("Digitenúmero inteiro 2:");
+//		System.out.println("Digitenúmero inteiro 2:");
 		int numeroInteiro2 = scanner.nextInt();
 		System.out.println("Digitenúmero real 1:");
 		double numeroReal1 = scanner.nextDouble();
