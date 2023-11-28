@@ -1,4 +1,4 @@
-package atividades;
+package atividades13;
 
 //Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 public class Atividade01 {

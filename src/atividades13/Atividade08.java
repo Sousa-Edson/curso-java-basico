@@ -1,4 +1,4 @@
-package atividades;
+package atividades13;
 
 import java.util.Scanner;
 /* Faça um Programa que pergunte quanto você ganha por hora e o

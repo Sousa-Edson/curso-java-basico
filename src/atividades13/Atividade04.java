@@ -1,4 +1,4 @@
-package atividades;
+package atividades13;
 
 import java.util.Scanner;
 //Faça um Programa que peça as 4 notas bimestrais e mostre a média.

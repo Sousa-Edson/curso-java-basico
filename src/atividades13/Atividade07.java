@@ -1,4 +1,4 @@
-package atividades;
+package atividades13;
 
 import java.util.Scanner;
 /* Faça um Programa que calcule a área de um quadrado, em seguida
