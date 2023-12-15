@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.loiane.cursojava.aula15.labs;
+package aula15.labs;
 
 import java.util.Scanner;
 
