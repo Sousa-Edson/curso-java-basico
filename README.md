@@ -1,38 +1,16 @@
 # curso-java-basico
 Estudando java basico
 
+**Curso Básico de Java**
 
-**Java Básico - Introdução**
+**Descrição:**
+Este curso abrange os fundamentos essenciais da linguagem de programação Java, oferecendo uma introdução abrangente e prática ao mundo da programação orientada a objetos. Ao longo do curso, você explorará conceitos cruciais, como variáveis, métodos, funções, classes e objetos, fornecendo uma base sólida para o desenvolvimento de software em Java.
 
-**loiane.training**
-
-https://loiane.training/continuar-curso/java-basico
-
----
-
-- [x]  **Introdução**
-    - [x]  I*ntrodução e Dicas para quem está começando*
-    - [x]  Instalando o Java no Windows
-    - [x]  Instalando o Java no Ubuntu (Linux)
-- [x]  **Começando com Java**
-    - [x]  Primeiro Programa em Java
-    - [x]  Correção Exercícios Aula 05
-    - [x]  Passando argumentos para o programa
-    - [x]  Correção Exercícios Aula 06
-    - [x]  Entendendo os Erros
-    - [x]  Instalando uma IDE (Eclipse e Netbeans)
-    - [x]  Introdução a Classes e Objetos
-- [x]  **Programação Básica**
-    - [x]  Introdução a Variáveis
-    - [x]  Tipos Primitivos
-    - [x]  Lendo dados usando a classe Scanner
-    - [x]  Operadores
-    - [x]  Correção Exercícios Aula 13
-- [ ]  **Controles, Decisões e Loops**
-    - [x]  Controle de Decisão: IF - ELSE
-    - [x]  Controle de Decisão com Múltipla Escolha: SWITCH
-    - [x]  Correção Exercícios Aula 15 (if-else e switch-case)
-    - [ ]  Loops – WHILE e DO WHILE
-    - [ ]  Loops – FOR
-    - [ ]  Correção Exercícios Aula 17 (while, do-while, for)
-    - [ ]  Comandos BREAK e CONTINUE
+**Tópicos Abordados:**
+1. **Variáveis e Tipos de Dados:** Aprenda a declarar e utilizar variáveis, explorando os diferentes tipos de dados disponíveis em Java.
+2. **Métodos e Funções:** Compreenda como criar e chamar métodos, além de explorar a criação de funções para modularizar o código.
+3. **Classes e Objetos:** Introdução à programação orientada a objetos com foco na criação de classes e objetos em Java.
+4. **Exceções:** Entenda como lidar com exceções e erros em Java, melhorando a robustez do seu código.
+5. **Arrays:** Explore o uso de arrays para armazenar e manipular conjuntos de dados em Java.
+6. **Conversões e Operações Básicas:** Aprofunde-se em operações de conversão entre tipos de dados e explore operações fundamentais.
+ 
