@@ -5,6 +5,10 @@ public class Pessoa {
 	private int idade;
 	private Endereco endereco; // Relacionamento "tem um" com a classe Endereco
 
+	public Pessoa() {
+		super();
+	}
+
 	public Pessoa(int id, String nome, int idade) {
 		this.nome = nome;
 		this.idade = idade;
