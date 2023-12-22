@@ -5,6 +5,12 @@ public class Pessoa {
 	private int idade;
 	private Endereco endereco; // Relacionamento "tem um" com a classe Endereco
 
+	public Pessoa(int id, String nome, int idade) {
+		this.nome = nome;
+		this.idade = idade;
+
+	}
+
 	public String getNome() {
 		return nome;
 	}
@@ -34,5 +40,4 @@ public class Pessoa {
 		return "Pessoa [nome=" + nome + ", idade=" + idade + ", endereco=" + endereco + "]";
 	}
 
-	
 }
